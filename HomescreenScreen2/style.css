@@ -1,0 +1,161 @@
+body {
+      margin: 0;
+      padding: 0;
+}
+
+.navbar {
+      display: flex;
+      /* justify-content: flex-start;
+      align-items: flex-start; */
+      justify-content: space-around;
+      background-color: #C83B53;
+
+}
+
+.notifi {
+      /* align-items: flex-start; */
+      margin-left: 0.1rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.notifi img {
+      width: 2rem;
+      height: 2rem;
+}
+
+/* .none {
+      border: 1px solid black;
+      transform: rotate(180deg);
+      margin: 1rem 0;
+      /* height: 1rem; 
+} */
+
+.location {
+      display: flex;
+      /* flex-wrap: wrap; */
+      /* margin-top: 2rem; */
+      align-items: center;
+      justify-content: center;
+}
+
+.location span {
+      font-size: 0.8rem;
+}
+
+.location img {
+      height: 1rem;
+      width: 1rem;
+}
+
+.bell {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.bell img {
+      width: 1.5rem;
+      height: 1.5rem;
+      margin: 0.4rem 0;
+}
+
+
+.profile {
+      /* border: 2px solid black; */
+}
+
+.services {
+      /* border: 1px solid red; */
+}
+
+.in-services {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+}
+
+
+
+.inside-services {
+      flex-basis: 20%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      /* border: 1px solid black; */
+      border-radius: 50%;
+      background-color: #C83B53;
+      color: black;
+      margin: 0.2rem 0;
+      width: 4rem;
+      height: 4rem;
+      clip-path: circle();
+      /* justify-content: space-between; */
+}
+
+.inside-services img {
+      width: 1rem;
+      height: 1rem;
+}
+
+.add {
+      /* border: 2px solid black; */
+      display: flex;
+      align-items: center;
+}
+
+.add img {
+      width: 6rem;
+      height: 6rem;
+}
+
+.values h5 {
+      font-weight: 500;
+      font-size: 1.4rem;
+      margin: 0;
+      margin-bottom: 0.3rem;
+}
+
+.values span {
+      font-size: 1rem;
+      /* font-weight: 40/0;/ */
+      font-weight: bold;
+
+}
+
+.headline {
+      border: 1px solid black;
+      width: 50%;
+      padding: 0.4rem;
+      margin-top: 0.2rem;
+      margin-bottom: 0.2rem;
+      background-color: #C83B53;
+      color: white;
+      text-align: center;
+      border-radius: 0.5rem;
+}
+
+.none {
+      border: 2px solid rgb(235, 209, 209);
+      margin: 1rem 0;
+}
+
+.first h5 {
+      font-size: 1rem;
+      margin: 0;
+}
+
+.first span {
+      font-weight: 300;
+      margin: 1rem 0;
+}
+
+.inimage img {
+      margin-top: 1rem;
+      margin-bottom: 0;
+      width: 14rem;
+      height: 10rem;
+
+}
